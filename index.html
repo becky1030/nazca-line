@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geoglyths Around The World</title>
+
+    <!-- have to include mapbox js in order to use your js file -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
+
+    <link href='css/styles.css' rel='stylesheet' />
+    <!-- remember to add end tag: need to add, if not add, might use the next tag-->
+</head> -->
+<!-- "" '' does not matter -->
+
+<!-- fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;1,300;1,400&family=Chivo+Mono:wght@600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+    <div id='map'></div>
+    <div id="console">
+        <h1>Geoglyths in Peru</h1>
+        <p>This map is inspired by a family trip traveling to <u>Peru</u> a few years ago. We had the chance to
+            see the <u>geoglyths</u> along <u>The Nazca Lines</u>.</p>
+        <p>I am wishing to expand the map more extensively on introducing more of the geoglyths <u>around the world</u>.
+        </p>
+        <h2><strong>About the geoglyths along The Nazca Lines:</strong></h2>
+        <div class="my-legend" style="position: absolute; top: 200px;">
+            <div class="legend-scale">
+                <ul class="legend-labels">
+                    <li><span style="background: burlywood;"></span>Massive geoglyphs in Nazca desert.</li>
+                    <li><span style="background: rgb(172, 135, 85);"></span>Created by Nazca culture, 500 BCE - 500 CE.
+                    </li>
+                    <li><span style="background: rgb(108, 83, 51);"></span>Depict animals, plants, geometric shapes.
+                    </li>
+                    <li><span style="background: rgb(77, 61, 40);"></span>Only visible from above.</li>
+                    <li><span style="background: rgb(24, 19, 13);"></span>Purpose remains a mystery.</li>
+
+                    <!-- buttons -->
+                    <div class="container">
+                        <h3><img src="assets/click.png" height="25px" width="20px">Click on each picture to show their
+                            locations:</h3>
+                        <button class="image-button" id="fly-to-g1" role="button"><img src="assets/g1.webp" height="80"
+                                width="100"></button>
+                        <button class="image-button" id="fly-to-g2" role="button"><img src="assets/g2.jpeg" height="80"
+                                width="100"></button>
+                        <button class="image-button" id="fly-to-g3" role="button"><img src="assets/g3.jpeg" height="80"
+                                width="100"></button>
+                        <button class="image-button" id="fly-to-g4" role="button"><img src="assets/g4.jpeg" height="80"
+                                width="100"></button>
+                        <button class="image-button" id="fly-to-g5" role="button"><img src="assets/g5.webp" height="80"
+                                width="100"></button>
+                        <button class="image-button" id="fly-to-g6" role="button"><img src="assets/g6.jpeg" height="80"
+                                width="100"></button>
+                    </div>
+
+                    <button class="button-33" id="reset-view" role="button">Reset</button>
+
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    <script src='js/scripts.js'></script>
+    <!-- relative: find same level as index.html and then search for css -->
+
+    <!-- absoulte: domain name + url etc: search from your computer-->
+
+</body>
+
+</html>
