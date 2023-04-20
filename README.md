@@ -9,3 +9,19 @@
  <strong>Tools</strong>: <ins>Geojson</ins>, <ins>mapbox</ins>, <ins>html</ins>, <ins>css</ins>, <ins>javascript</ins>
 
 ![ezgif com-video-to-gif-2](https://user-images.githubusercontent.com/112721395/233448881-d8d241ea-a454-4b44-a6df-55275d174452.gif)
+
+<div class="container">
+                  
+                        <img src="assets/g1.webp" height="80"
+                               width="100">
+                        <img src="assets/g2.jpeg" height="80"
+                                width="100">
+                        <img src="assets/g3.jpeg" height="80"
+                                width="100">
+                        <img src="assets/g4.jpeg" height="80"
+                                width="100">
+                        <img src="assets/g5.webp" height="80"
+                                width="100">
+                        <img src="assets/g6.jpeg" height="80"
+                                width="100">
+                    </div>
