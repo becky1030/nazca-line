@@ -6,4 +6,4 @@
 <a href="https://www.heritagedaily.com/2020/04/the-nazca-lines-interactive-map/127496">THE NAZCA LINES & INTERACTIVE MAP</a>
  </div>
 
-https://user-images.githubusercontent.com/112721395/233447882-8d53738b-8b8a-4fa5-adb1-d7d9022051d4.mov
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/112721395/233448341-9aff53fe-1f92-448c-99b1-df5f8020ab65.gif)
