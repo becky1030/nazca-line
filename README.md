@@ -12,7 +12,7 @@
 
 <div class="container">
                   
-                        <img src="assets/g1.webp" height="80"
+                        <img src="![g2](https://user-images.githubusercontent.com/112721395/233450644-e99251a6-f418-4384-9a8d-ffb1865c5f6b.jpeg" height="80"
                                width="100">
                         <img src="assets/g2.jpeg" height="80"
                                 width="100">
@@ -25,3 +25,8 @@
                         <img src="assets/g6.jpeg" height="80"
                                 width="100">
                     </div>
+
+![g2](https://user-images.githubusercontent.com/112721395/233450644-e99251a6-f418-4384-9a8d-ffb1865c5f6b.jpeg)
+![g3](https://user-images.githubusercontent.com/112721395/233450655-b9ac79f6-a9cb-4a57-818c-8f8e02405081.jpeg)
+![g4](https://user-images.githubusercontent.com/112721395/233450657-9fe47fba-93ef-4bce-9ef9-565dd29b8477.jpeg)
+![g6](https://user-images.githubusercontent.com/112721395/233450659-f6a7b46d-1804-4e96-a84e-4642f8d19d7d.jpeg)
