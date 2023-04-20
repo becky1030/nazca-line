@@ -22,48 +22,41 @@ const popup7 = new mapboxgl.Popup({ offset: 25 }).setText("The Nazca Lines");
 // create marker for each geoglyth
 const marker1 = new mapboxgl.Marker({
   color: "brown",
-  draggable: true,
 })
   .setLngLat([-75.1382, -14.7011])
   .setPopup(popup1)
   .addTo(map);
 const marker2 = new mapboxgl.Marker({
   color: "brown",
-  draggable: true,
 })
   .setLngLat([-75.1264, -14.6973])
   .setPopup(popup2)
   .addTo(map);
 const marker3 = new mapboxgl.Marker({
   color: "brown",
-  draggable: true,
 })
   .setLngLat([-75.1307, -14.7064])
   .setPopup(popup3)
   .addTo(map);
 const marker4 = new mapboxgl.Marker({
   color: "brown",
-  draggable: true,
 })
   .setLngLat([-75.1511, -14.7084])
   .setPopup(popup4)
   .addTo(map);
 const marker5 = new mapboxgl.Marker({
   color: "brown",
-  draggable: true,
 })
   .setLngLat([-75.1489, -14.6922])
   .setPopup(popup5)
   .addTo(map);
 const marker6 = new mapboxgl.Marker({
   color: "brown",
-  draggable: true,
 })
   .setLngLat([-75.1449, -14.6911])
   .setPopup(popup6)
   .addTo(map);
 const marker7 = new mapboxgl.Marker({
-  draggable: true,
 })
   .setLngLat([-75.1312, -14.6986])
   .setPopup(popup7)
