@@ -9,7 +9,7 @@ const map = new mapboxgl.Map({
 });
 
 // create the popup
-const popup1 = new mapboxgl.Popup({ offset: 25 }).setText("The Lizard ");
+const popup1 = new mapboxgl.Popup({ offset: 25 }).setHTML("<div><img src='assets/horse-riding.svg'/></div>")
 const popup2 = new mapboxgl.Popup({ offset: 25 }).setText(
   "The Hummmingbird(small)"
 );
@@ -20,11 +20,17 @@ const popup6 = new mapboxgl.Popup({ offset: 25 }).setText("The Needles");
 const popup7 = new mapboxgl.Popup({ offset: 25 }).setText("The Nazca Lines");
 
 // create marker for each geoglyth
-const marker1 = new mapboxgl.Marker({
-  color: "brown",
-})
+
+const el1 = document.createElement("div");
+el1.className = "marker";
+el1.style.backgroundImage = `url(assets/horse-riding.svg)`;
+el1.style.width = `30px`;
+el1.style.height = `30px`;
+el1.style.backgroundSize = "100%";
+const marker1 = new mapboxgl.Marker(el1)
   .setLngLat([-75.1382, -14.7011])
   .setPopup(popup1)
+  
   .addTo(map);
 const marker2 = new mapboxgl.Marker({
   color: "brown",
@@ -56,8 +62,7 @@ const marker6 = new mapboxgl.Marker({
   .setLngLat([-75.1449, -14.6911])
   .setPopup(popup6)
   .addTo(map);
-const marker7 = new mapboxgl.Marker({
-})
+const marker7 = new mapboxgl.Marker({})
   .setLngLat([-75.1312, -14.6986])
   .setPopup(popup7)
   .addTo(map);

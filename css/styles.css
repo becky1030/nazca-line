@@ -1,4 +1,7 @@
-/* I think I still see a spacing on the width */
+/* solved the spacing that once appeared on the left screen */
+html, body {
+    margin: 0
+    }
 
 #map {
   position: absolute;
