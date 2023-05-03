@@ -9,7 +9,9 @@ const map = new mapboxgl.Map({
 });
 
 // create the popup
-const popup1 = new mapboxgl.Popup({ offset: 25 }).setHTML("<div><img src='assets/horse-riding.svg'/></div>")
+const popup1 = new mapboxgl.Popup({ offset: 25 }).setHTML(
+  "<div><img src='assets/horse-riding.svg'/></div>"
+);
 const popup2 = new mapboxgl.Popup({ offset: 25 }).setText(
   "The Hummmingbird(small)"
 );
@@ -30,38 +32,63 @@ el1.style.backgroundSize = "100%";
 const marker1 = new mapboxgl.Marker(el1)
   .setLngLat([-75.1382, -14.7011])
   .setPopup(popup1)
-  
   .addTo(map);
-const marker2 = new mapboxgl.Marker({
-  color: "brown",
-})
+
+const el2 = document.createElement("div");
+el2.className = "marker";
+el2.style.backgroundImage = `url(assets/horse-riding.svg)`;
+el2.style.width = `30px`;
+el2.style.height = `30px`;
+el2.style.backgroundSize = "100%";
+const marker2 = new mapboxgl.Marker(el2)
   .setLngLat([-75.1264, -14.6973])
   .setPopup(popup2)
   .addTo(map);
-const marker3 = new mapboxgl.Marker({
-  color: "brown",
-})
+
+const el3 = document.createElement("div");
+el3.className = "marker";
+el3.style.backgroundImage = `url(assets/horse-riding.svg)`;
+el3.style.width = `30px`;
+el3.style.height = `30px`;
+el3.style.backgroundSize = "100%";
+const marker3 = new mapboxgl.Marker(el3)
   .setLngLat([-75.1307, -14.7064])
   .setPopup(popup3)
   .addTo(map);
-const marker4 = new mapboxgl.Marker({
-  color: "brown",
-})
+
+const el4 = document.createElement("div");
+el4.className = "marker";
+el4.style.backgroundImage = `url(assets/horse-riding.svg)`;
+el4.style.width = `30px`;
+el4.style.height = `30px`;
+el4.style.backgroundSize = "100%";
+const marker4 = new mapboxgl.Marker(el4)
   .setLngLat([-75.1511, -14.7084])
   .setPopup(popup4)
   .addTo(map);
-const marker5 = new mapboxgl.Marker({
-  color: "brown",
-})
+
+const el5 = document.createElement("div");
+el5.className = "marker";
+el5.style.backgroundImage = `url(assets/horse-riding.svg)`;
+el5.style.width = `30px`;
+el5.style.height = `30px`;
+el5.style.backgroundSize = "100%";
+const marker5 = new mapboxgl.Marker(el5)
   .setLngLat([-75.1489, -14.6922])
   .setPopup(popup5)
   .addTo(map);
-const marker6 = new mapboxgl.Marker({
-  color: "brown",
-})
+
+const el6 = document.createElement("div");
+el6.className = "marker";
+el6.style.backgroundImage = `url(assets/horse-riding.svg)`;
+el6.style.width = `30px`;
+el6.style.height = `30px`;
+el6.style.backgroundSize = "100%";
+const marker6 = new mapboxgl.Marker(el6)
   .setLngLat([-75.1449, -14.6911])
   .setPopup(popup6)
   .addTo(map);
+
 const marker7 = new mapboxgl.Marker({})
   .setLngLat([-75.1312, -14.6986])
   .setPopup(popup7)
